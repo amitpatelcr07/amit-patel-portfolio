@@ -40,22 +40,39 @@ export default function Home() {
 
           {/* SOCIAL ICONS */}
           <div className="flex justify-center lg:justify-start gap-10">
-            <SiStackoverflow
-              size={52}
-              className="text-gray-600 hover:text-orange-500 cursor-pointer transition-transform hover:scale-110"
-            />
-            <FaInstagram
-              size={52}
-              className="text-gray-600 hover:text-pink-500 cursor-pointer transition-transform hover:scale-110"
-            />
-            <FaGithub
-              size={52}
-              className="text-gray-600 hover:text-black cursor-pointer transition-transform hover:scale-110"
-            />
-            <FaLinkedin
-              size={52}
-              className="text-gray-600 hover:text-blue-700 cursor-pointer transition-transform hover:scale-110"
-            />
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex"
+            >
+              <FaInstagram
+                size={52}
+                className="text-gray-600 hover:text-pink-500 cursor-pointer transition-transform hover:scale-110"
+              />
+            </a>
+            <a
+              href="https://github.com/amitpatelcr07"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex"
+            >
+              <FaGithub
+                size={52}
+                className="text-gray-600 hover:text-black cursor-pointer transition-transform hover:scale-110"
+              />
+            </a>
+            <a
+              href="https://linkedin.com/in/amit-patel-b944b1195"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex"
+            >
+              <FaLinkedin
+                size={52}
+                className="text-gray-600 hover:text-blue-700 cursor-pointer transition-transform hover:scale-110"
+              />
+            </a>
           </div>
 
           {/* BUTTON */}

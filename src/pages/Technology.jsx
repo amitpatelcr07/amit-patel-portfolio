@@ -83,9 +83,7 @@ export default function Technology() {
 
       {/* DESCRIPTION */}
       <p className="text-gray-600 max-w-4xl text-lg">
-        Using a combination of cutting-edge technologies and reliable
-        open-source software I build user-focused, performant apps and websites
-        for smartphones, tablets, and desktops.
+        Full-Stack (MERN) Developer specializing in React, Node.js, and MongoDB.
       </p>
 
       {/* GRID */}

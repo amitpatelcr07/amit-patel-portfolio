@@ -29,19 +29,17 @@ export default function About() {
           </h2>
 
           <p className="text-gray-600 leading-relaxed text-lg">
-            I'm a self-taught web developer and Mobile App Developer with
-            experience in designing new features from ideation to production,
-            implementation of wireframes and design flows into high performance
-            software applications. I take into consideration the user experience
-            while writing reusable and efficient code. I passionately combine
-            good design, technology, and innovation in all my projects, which I
-            like to accompany from the first idea to release. Currently, I'm
-            focused on the backend development.
+            Hi, I'm Amit Patel, a passionate Full-Stack Developer (MERN) with a
+            strong focus on building scalable, user-friendly web applications. I
+            specialize in React.js for dynamic frontends and Node.js/Express.js
+            with MongoDB for robust backends. With hands-on experience in
+            designing, developing, and optimizing full-stack applications, I
+            enjoy solving complex problems and creating efficient solutions.
           </p>
         </div>
 
         {/* TECHNOLOGIES */}
-        
+
         <Technology />
       </div>
     </section>
