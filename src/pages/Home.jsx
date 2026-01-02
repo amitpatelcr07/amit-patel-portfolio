@@ -24,12 +24,12 @@ export default function Home() {
       >
         {/* LEFT CONTENT */}
         <div className="space-y-6 text-center lg:text-left">
-          <h1 className="text-4xl sm:text-5xl font-bold text-green-600">
+          <h1 className="text-4xl sm:text-4xl font-bold text-green-400 typewriter-name">
             Hi, I am Amit Patel
           </h1>
 
-          <h2 className="text-4xl sm:text-6xl font-extrabold text-green-500">
-            Full Stack Developer<span className="animate-pulse">|</span>
+          <h2 className="text-4xl sm:text-4xl font-extrabold text-green-300 typewriter-title">
+            Full Stack Developer
           </h2>
 
           <p className="text-gray-700 text-lg max-w-xl mx-auto lg:mx-0">

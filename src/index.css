@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+/* TYPEWRITER ANIMATION FOR HEADINGS */
+@keyframes typewriterName {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typewriterTitle {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter-name {
+  animation: typewriterName 3s steps(18, end) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.typewriter-title {
+  animation: typewriterTitle 3.5s steps(25, end) 0.3s forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
