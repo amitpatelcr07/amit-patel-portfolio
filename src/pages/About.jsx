@@ -28,14 +28,27 @@ export default function About() {
             A bit about me
           </h2>
 
-          <p className="text-gray-600 leading-relaxed text-lg">
-            Hi, I'm Amit Patel, a passionate Full-Stack Developer (MERN) with a
-            strong focus on building scalable, user-friendly web applications. I
-            specialize in React.js for dynamic frontends and Node.js/Express.js
-            with MongoDB for robust backends. With hands-on experience in
-            designing, developing, and optimizing full-stack applications, I
-            enjoy solving complex problems and creating efficient solutions.
-          </p>
+          <section className="max-w-4xl mx-auto px-6 py-12 text-center lg:text-left">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-600 mb-4">
+              Full-Stack MERN Developer
+            </h2>
+
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Full-Stack MERN Developer with{" "}
+              <span className="font-semibold">3.5+ years of experience</span>
+              in designing, developing, and deploying scalable web applications
+              using
+              <span className="font-semibold">
+                {" "}
+                React.js, Node.js, and MongoDB
+              </span>
+              . Experienced in RESTful API design, microservices, and CI/CD
+              automation with OpenShift. Skilled in performance optimization
+              using Redis and cloud integrations such as Cloudinary. Passionate
+              about writing clean, reusable code and collaborating effectively
+              in Agile teams.
+            </p>
+          </section>
         </div>
 
         {/* TECHNOLOGIES */}

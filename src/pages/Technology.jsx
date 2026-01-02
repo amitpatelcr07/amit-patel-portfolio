@@ -81,10 +81,7 @@ export default function Technology() {
         Technologies and Tools
       </h3>
 
-      {/* DESCRIPTION */}
-      <p className="text-gray-600 max-w-4xl text-lg">
-        Full-Stack (MERN) Developer specializing in React, Node.js, and MongoDB.
-      </p>
+      
 
       {/* GRID */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
