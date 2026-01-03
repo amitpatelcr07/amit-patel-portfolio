@@ -76,8 +76,10 @@ export default function Home() {
           </div>
 
           {/* BUTTON */}
-          <button
-            className="
+          <div>
+            <a href="https://drive.google.com/file/d/1vtIv74HIWildrO88rvNXMceaeq3AxUCj/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+              <button
+                className="
               mt-8
               inline-flex items-center gap-3
               bg-blue-600 text-white
@@ -88,10 +90,12 @@ export default function Home() {
               hover:bg-blue-700 hover:shadow-2xl
               transition-all
             "
-          >
-            <FaDownload />
-            Download Resume
-          </button>
+              >
+                <FaDownload />
+                Download Resume
+              </button>
+            </a>
+          </div>
         </div>
 
         {/* RIGHT COLUMN (KEEP EMPTY FOR FUTURE IMAGE / ILLUSTRATION) */}

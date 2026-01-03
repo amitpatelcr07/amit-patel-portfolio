@@ -25,10 +25,10 @@ const Project = () => {
     {
       id: 1,
       type: "professional",
-      title: "Enterprise Fullstack Solutions",
+      title: "US Top Pharmacy Company ",
       company: "Tata Consultancy Services (TCS)",
       role: "Fullstack Developer",
-      duration: "March 2022 – Present",
+      duration: "Jan 2025 – Present",
       location: "Noida",
       description:
         "Developed and deployed scalable fullstack features for enterprise clients using modern web technologies and cloud infrastructure.",
@@ -71,6 +71,7 @@ const Project = () => {
       ],
       responsibilities: [
         "Designed and consumed RESTful APIs, integrating them with React components for seamless data flow",
+        "made onboarding and offboarding modules for users with secure authentication",
         "Applied React Query and Context API for efficient state management and data fetching",
         "Integrated Cloudinary for image management and used Axios for high-performance API calls",
         "Collaborated within Agile teams, ensuring timely sprint delivery",
@@ -82,7 +83,7 @@ const Project = () => {
       title: "Danfoss Billing & Parts Management System",
       company: "Tata Consultancy Services (TCS) - Client: Danfoss",
       role: "Fullstack Developer",
-      duration: "March 2022 – Present",
+      duration: "March 2022 – Nov 2024",
       location: "Noida",
       description:
         "Enterprise-level billing, invoice, and heavy machinery parts management system for Danfoss client, handling complex inventory and financial operations.",
@@ -122,7 +123,7 @@ const Project = () => {
         { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
       ],
       responsibilities: [
-        "Developed frontend interfaces for billing and invoice management",
+        "Developed frontend interfaces for Client data management",
         "Created RESTful APIs for parts inventory and financial data management",
         "Implemented secure data handling for sensitive billing information",
         "Built responsive dashboards for real-time data visualization",
