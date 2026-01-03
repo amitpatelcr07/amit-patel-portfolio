@@ -123,8 +123,7 @@ export default function Services() {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             I'm passionate about building modern web applications and helping
-            bring your ideas to life. Open to internships, full-time roles, and
-            freelance opportunities.
+            bring your ideas to life. Open to full-time roles opportunities.
           </p>
         </div>
 
@@ -287,7 +286,7 @@ export default function Services() {
             </div>
 
             <p className="text-sm text-gray-500 pt-4">
-              💼 Open for: Full-time roles • Internships • Freelance projects
+              💼 Open for: Full-time roles 
             </p>
           </div>
         </div>
